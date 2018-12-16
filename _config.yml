@@ -2,7 +2,7 @@
 title: BY Starbrokenone
 SEOTitle: 张利云的博客 | BY Starbrokenone
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
+email: luoyunyi@vip.qq.com
 description: "Every failure is leading towards success."
 keyword: "BY, BY Starbrokenone, 张利云的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
 url: "https://starbrokenone.github.io/"          # your host, for absolute URL
@@ -57,7 +57,7 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: starbroken
+# disqus_username: star
 
 # Gitalk
 gitalk:
