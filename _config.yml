@@ -100,8 +100,9 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "吕永浩",
+        href: "https://snake-lvyonghao.github.io/
+"
     },{
         title: "简书·BY",
         href: "http://www.jianshu.com/u/e71990ada2fd"
