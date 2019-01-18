@@ -219,34 +219,27 @@ type|type="text/javascript"
 2. 新建js脚本文件```<script type="text/javascript" src="index.js"></script>```
 
 ## 测试
-
 ```
 //index.js
 alert('javascript')
-
 ```
 ## 页面加载后完成
-
 ```
 window.onload = function () {
     alert('javascript')
 }
 ```
 ## 获取元素
-
 ```
 var obtn = document.getElementById('btn');
 ```
-
 ## 为btn添加点击事件
-
 ```
 obtn.onclick = function(){
     alert('javascript')
 }
 ```
 ## 获取滚动条到顶部的距离
-
 ```
 var osTop = document.documentElement.scrollTop;
 //alert('osTop')
@@ -257,7 +250,6 @@ document.documentElement.scrollTop = 200;
 //点击一次向上移动200    -=200
 ```
 ## 动画效果
-
 ```
 //设置定时器
 var timer = null;
@@ -271,7 +263,6 @@ timer = setInterval(function(){
 
 ```
 ## 减速向上滚动
-
 ```
 var ispeed = osTop/7;
 document.documentElement.scrollTop = osTop - ispeed;
