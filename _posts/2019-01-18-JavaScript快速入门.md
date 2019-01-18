@@ -206,4 +206,86 @@ do..while循环与while循环不同之处在于它至少将代码块中的代码
     } while (false);
 ```
 而对于for ... in循环，我们将在讲解数组和对象时使用
+# javascript实现回到顶部效果
+## <script>标签解析
 
+属性 | 解释
+---|---
+charset| src指定字符集
+scr | 包含要执行代码的外部文件
+type|type="text/javascript" 
+## 使用（类似于css）：
+1. 在html文件中写入```<script></script>```直接在script标签中写javascript
+2. 新建js脚本文件```<script type="text/javascript" src="index.js"></script>```
+## 测试
+```
+//index.js
+alert('javascript')
+
+```
+## 页面加载后完成
+
+```
+window.onload = function () {
+    alert('javascript')
+}
+```
+## 获取元素
+
+```
+var obtn = document.getElementById('btn');
+```
+
+## 为btn添加点击事件
+
+```
+obtn.onclick = function(){
+    alert('javascript')
+}
+```
+## 获取滚动条到顶部的距离
+
+```
+var osTop = document.documentElement.scrollTop;
+//alert('osTop')
+```
+## 改写滚动条到顶部的距离
+```
+document.documentElement.scrollTop = 200;
+//点击一次向上移动200    -=200
+```
+## 动画效果
+
+```
+//设置定时器
+var timer = null;
+timer = setInterval(function(){
+    var osTop = document.documentElement.scrollTop;
+    document.documentElement.scrollTop -= 200;
+    if(osTop == 0 ){//解决回到顶部后无法下拉
+			clearInterval(timer);
+	} 
+},30);//此动画隔30毫秒执行一次
+
+```
+## 减速向上滚动
+
+```
+var ispeed = osTop/7;
+document.documentElement.scrollTop = osTop - ispeed;
+```
+## 向上滚动时无法暂停
+没到顶部，所以不清除计时器
+```
+window.onscroll = function(){//滚动条滚动时触发
+        //停止滚动时，清除计时器
+    	if(!isTop){
+    		clearInterval(timer);	
+    	}
+    	isTop = false;
+//此时会暂停，应在计时器函数中加isTop = true;
+```
+## 多次点击bug
+onclick后清除计时器
+## 按钮的显示与隐藏
+不做解释，请自行练习
