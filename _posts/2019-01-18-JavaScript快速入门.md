@@ -217,7 +217,9 @@ type|type="text/javascript"
 ## 使用（类似于css）：
 1. 在html文件中写入```<script></script>```直接在script标签中写javascript
 2. 新建js脚本文件```<script type="text/javascript" src="index.js"></script>```
+
 ## 测试
+
 ```
 //index.js
 alert('javascript')
