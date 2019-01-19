@@ -242,7 +242,7 @@ obtn.onclick = function(){
 ## 获取滚动条到顶部的距离
 ```
 var osTop = document.documentElement.scrollTop;
-//alert('osTop')
+//alert(osTop)
 ```
 ## 改写滚动条到顶部的距离
 ```
