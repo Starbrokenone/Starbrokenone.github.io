@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      Atom配置python环境
+subtitle:   Atom python
+date:       2019-02-15
+author:     Starbroken
+header-img: img/post-bg-re-vs-ng2.jpg
+catalog: true
+tags:
+    - python
+    - 开发环境
+---
 # Atomy配置python环境
 
 ## 安装python
