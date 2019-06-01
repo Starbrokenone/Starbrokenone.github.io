@@ -1,0 +1,20 @@
+# 小程序动效
+
+## 1. 小程序UI动效实现
+
+1. ![](https://cloud-minapp-26894.cloud.ifanrusercontent.com/1hX0ZgL5C8ionAU0.gif)
+
+2. ![](https://cloud-minapp-26894.cloud.ifanrusercontent.com/1hX0n8EaTanoqkkN.gif)
+3. ![](https://cloud-minapp-26894.cloud.ifanrusercontent.com/1hX0nJM2N3h4x5FT.gif)
+4. ![](https://cloud-minapp-26894.cloud.ifanrusercontent.com/1hX0nC4u8JEdalMq.gif)
+5. ![](https://cloud-minapp-26894.cloud.ifanrusercontent.com/1hX0ynMZwnnVvrxA.gif)
+
+## 2. 涉及知识点
+
+- 小程序画布（canvas）
+- CSS动画
+-  ......
+
+## 3. 要求
+
+- 由于gif图片无法切图，写小程序时可用其他图代替，重点是动画
