@@ -9,6 +9,7 @@ catalog: true
 tags:
     - python
     - 开发环境
+    - 后端开发
 ---
 # Atomy配置python环境
 
